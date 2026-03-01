@@ -1,4 +1,5 @@
 public class CampusLifePlanner {
+
     public static void main(String[] args) {
 
         Course oop = new Course("OOP", "Dr. Lee", 6);
@@ -23,6 +24,7 @@ public class CampusLifePlanner {
         System.out.println();
 
         lab2.markCompleted();
+
         System.out.println("After completing Lab 2:");
         System.out.println(lab2);
         System.out.println("Is urgent? " + lab2.isUrgent());
